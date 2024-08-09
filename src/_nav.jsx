@@ -145,8 +145,13 @@ const _nav = [
       },
       {
         component: CNavItem,
-        name: 'Alerts',
-        to: '/tenant/administration/alertsqueue',
+        name: 'Alert Configuration',
+        to: '/tenant/administration/alert-configuration',
+      },
+      {
+        component: CNavItem,
+        name: 'Audit Logs',
+        to: '/tenant/administration/audit-logs',
       },
       {
         component: CNavItem,
@@ -686,6 +691,11 @@ const _nav = [
         component: CNavItem,
         name: 'Mail Test',
         to: '/email/tools/mail-test',
+      },
+      {
+        component: CNavItem,
+        name: 'Message Viewer',
+        to: '/email/tools/message-viewer',
       },
     ],
   },
